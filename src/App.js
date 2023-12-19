@@ -31,16 +31,18 @@ function Navbar() {
   )
 }
 function NavIcon({ itemObj }) {
-  return <a href={itemObj.href}>{itemObj.name}</a>
+  return (
+    <a href={itemObj.href}>{itemObj.name}</a>
+  )
 }
 function HeroText() {
   return (
     <div className="hero-text">
       <h1>Hi I'm Asad</h1>
       <p>Hello! This is Sayyed Asad Ullah. I'm a front end web developer and interface designer — who builds UX rich, accessible & performant websites </p>
-      <div>
+      <div className="btn-parent">
         <a href="#" className="btn-dark">Need help...</a>
-        <a href="#" className="btn-light">See Work</a>
+        <a href="#" className="btn-light">Visit Projects</a>
       </div>
     </div>
   )
