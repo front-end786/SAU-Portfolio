@@ -4,14 +4,17 @@ export default function App() {
   )
 }
 function Hero() {
-  <header>
-    <Navbar />
-  </header>
+  return (
+    <header>
+      <Navbar />
+      <HeroText />
+    </header>
+  )
 }
 function Navbar() {
   return (
     <nav>
-      <img src="public/Asad-logo.png" alt="Asad-Logo" />
+      <img src="Asad-logo.png" alt="Asad-Logo" />
       <div className="nav-item-parent">
         <a href="/">Work</a>
         <a href="/projects">Testimonails</a>
@@ -19,5 +22,15 @@ function Navbar() {
         <a href="/">Contact</a>
       </div>
     </nav>
+  )
+}
+
+function HeroText() {
+  return (
+    <div>
+      <h1>Hi I'm Asad</h1>
+      <p>Hello! This is Sayyed Asad Ullah. I'm a front end web developer and interface designer — who builds UX rich, accessible & performant websites </p>
+      <a href="#">Need help...</a>
+    </div>
   )
 }

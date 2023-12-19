@@ -1,7 +1,78 @@
 @import url("https://fonts.googleapis.com/css2?family=Proxima+Nova:wght@100;200;300;400;500;600;700;800&family=Proxima+Nova:ital,wght@1,700&display=swap");
 
-/* background:linear-gradient(to top  left,#00abc5,#008bbf,#00548b,#002561) */
+/*-----------------------------------
+Basic Structure ---------------------
+-------------------------------------
+*/
 * {
   font-family: "Proxima Nova", serif;
-  font-weight: 200;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*-----------------------------------
+Web App Font Size -------------------
+-------------------------------------
+*/
+
+html {
+  font-size: 62.5%;
+}
+
+/*-----------------------------------
+Reuse Variables ---------------------
+-------------------------------------
+*/
+
+:root {
+  --basic-gradient: linear-gradient(
+    to top left,
+    #00abc5,
+    #008bbf,
+    #00548b,
+    #002561
+  );
+  --black-color: #000000;
+  --white-color: #fbf7ec;
+  --text-color: #2e2f31;
+  --similar-mini: 0.5rem;
+  --similar: 1rem;
+  --simiar-mini-huge: 1.5rem;
+  --nav-height: 20vh;
+}
+
+/*-----------------------------------
+WebApp Body Style -------------------
+-------------------------------------
+*/
+
+body {
+  color: var(--text-color);
+  background-color: var(--white-color);
+}
+
+header {
+  background: linear-gradient(
+      to bottom right,
+      rgba(255, 255, 255, 0.8),
+      rgba(255, 255, 255, 0.6)
+    ),
+    url(../public/bg.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+}
+
+nav {
+  height: var(--nav-height);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav img {
+  max-width: 80px;
+  max-height: 80px;
 }
