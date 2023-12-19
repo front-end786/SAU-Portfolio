@@ -1,0 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Proxima+Nova:wght@100;200;300;400;500;600;700;800&family=Proxima+Nova:ital,wght@1,700&display=swap");
+
+/* background:linear-gradient(to top  left,#00abc5,#008bbf,#00548b,#002561) */
+* {
+  font-family: "Proxima Nova", serif;
+  font-weight: 200;
+}
