@@ -36,6 +36,8 @@ Reuse Variables ---------------------
   --black-color: #000000;
   --white-color: #fbf7ec;
   --text-color: #2e2f31;
+  /* --shadow-color: #008cbf6e; */
+  --shadow-color: #00538b60;
   --h1: 8rem;
   --basic-font-size: 1.7rem;
   --font-similar-big: 2rem;
@@ -75,6 +77,7 @@ h4 {
 }
 
 h1 {
+  font-weight: 400;
   font-size: var(--h1);
   letter-spacing: 1px;
 }
@@ -143,25 +146,28 @@ nav div a:hover {
 .btn-parent {
   display: flex;
   justify-content: center;
-  gap: var(--similar);
+  gap: var(--similar-huge-big);
+}
+
+.btn {
+  padding: var(--similar) var(--similar-huge-big);
+  text-decoration: none;
+  font-weight: 400;
+  font-size: var(--font-big);
+  border-radius: var(--similar-mini);
+  transition: all 0.4s;
+}
+
+.btn:hover {
+  box-shadow: 0 0 1px 7px var(--shadow-color);
 }
 
 .btn-dark {
   background: var(--basic-gradient);
-  padding: var(--similar) var(--similar-huge-big);
   color: var(--white-color);
-  font-weight: 400;
-  font-size: var(--font-big);
-  text-decoration: none;
-  border-radius: var(--similar-mini);
 }
 
 .btn-light {
-  padding: var(--similar) var(--similar-huge-big);
-  font-weight: 400;
-  font-size: var(--font-big);
-  text-decoration: none;
-  border-radius: var(--similar-mini);
   border: 1px solid var(--black-color);
   color: var(--black-color);
 }

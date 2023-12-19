@@ -1,6 +1,9 @@
 export default function App() {
   return (
-    <Hero />
+    <>
+      <Hero />
+      <Main />
+    </>
   )
 }
 function Hero() {
@@ -11,6 +14,12 @@ function Hero() {
     </header>
   )
 }
+
+const work = [
+  {
+
+  }
+]
 
 const navItem = [
   { name: 'Work', href: 'sau' },
@@ -41,9 +50,17 @@ function HeroText() {
       <h1>Hi I'm Asad</h1>
       <p>Hello! This is Sayyed Asad Ullah. I'm a front end web developer and interface designer — who builds UX rich, accessible & performant websites </p>
       <div className="btn-parent">
-        <a href="#" className="btn-dark">Need help...</a>
-        <a href="#" className="btn-light">Visit Projects</a>
+        <a href="#" className="btn btn-dark">Need help...</a>
+        <a href="#" className="btn btn-light">Visit Projects</a>
       </div>
     </div>
+  )
+}
+
+function Main() {
+  return (
+    <main>
+      <h2>My Work</h2>
+    </main>
   )
 }
