@@ -1287,7 +1287,7 @@ input:checked {
 
 .btn-show {
   position: absolute;
-  bottom: 15%;
+  bottom: 25%;
   transition: all 0.4s;
 }
 
