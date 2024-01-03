@@ -1,70 +1,86 @@
-# Getting Started with Create React App
+# Portfolio Template
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+An open-source, user-friendly, responsive and accessible portfolio template for developers 🚀⚡
 
-## Available Scripts
+Give star ⭐ if you find it useful. [Visit site &rarr;](https://opensource-portfolio.netlify.app/)
 
-In the project directory, you can run:
+![Portfolio Template Gif](assets/images/portfolio-template.gif)
 
-### `npm start`
+## Useful resources
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Make sure to subscribe to our [youtube channel](https://www.youtube.com/@nisarhassan12) channel where we cover creating template like this from scratch using HTML, CSS and JavaScript and also don't forget to star 🌟 the [css-tips-tricks](https://github.com/devsyedmohsin/css-tips-tricks) that has already reached 150+ stars.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+## Table of Contents
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. [Features](#key-features)
+1. [Customization](#customizing-the-template)
+1. [Deploying the Site](#deploying-the-site)
 
-### `npm run build`
+## Features
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+-  Fully Mobile responsive.
+-  Supports light/dark theme.
+-  Built with a11y in mind.
+-  Modern design.
+-  Multiple sections.
+-  Sleek animations.
+-  Fast loads.
+-  SEO-optimized.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<img src="assets/images/lighthouse.png" alt="lighthouse report with 100% scores">
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Customizing the Template
 
-### `npm run eject`
+Follow these three steps to fashion an awe-inspiring portfolio of your own. 
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- [Cloning the repository](#cloning-the-repository)
+- [Editing the Template](#editing-the-template)
+- [Deploying the Site](#deploying-the-site)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Cloning the Repository.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+If you have [Git](https://git-scm.com/) installed on your computer, you can simply clone or download the portfolio template by running the following command in your terminal.
 
-## Learn More
+```bash
+git clone https://github.com/devsyedmohsin/portfolio-template
+```
+ Alternatively, click on this [link](https://github.com/devsyedmohsin/portfolio-template/archive/refs/heads/main.zip) to download it. 
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Editing the Template 
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+After you got the template please open it in the code editor of your choice.
+You will find a file named `index.html` open it and follow the guidance inscribed within the comments to customize the template.
 
-### Code Splitting
+**For example:**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+```html
+ <!-- Update with your name -->
+<title>Syed Mohsin's Portfolio</title>
+```
 
-### Analyzing the Bundle Size
+```html
+<div class="header-textbox">
+  <!-- Replace with your name & job title -->
+  <h1 class="h1">
+    Hi, I'm Syed Mohsin
+    Frontend Web Developer
+  </h1>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+  <!-- Add a small introductory paragraph about yourself -->
+  <p class="header-text">
+    A frontend software engineer and interface designer
+  </p>
+</div>
+```
+**Note:** While editing the template make sure you have updated all `href`, img `src` and `alt` attributes of links and images. 
 
-### Making a Progressive Web App
+### Deploying the Site
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Watch [this youtube video](https://www.youtube.com/watch?v=oEyXLYW3RjY) to learn how to deploy your version of the portfolio-template to the web.
 
-### Advanced Configuration
+[![Deploy your version of the Portfolio template using Netlify](assets/images/thumbnail.png)](https://www.youtube.com/watch?v=oEyXLYW3RjY "Deploy your version of the Portfolio template using Netlify")
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Contributions are warmly welcomed ❤️.
