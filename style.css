@@ -1290,8 +1290,3 @@ input:checked {
   bottom: 25%;
   transition: all 0.4s;
 }
-
-.btn-trans {
-  background-color: var(--bg-color-secondary);
-  border: 1px solid var(--border-dark);
-}
