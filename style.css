@@ -1342,10 +1342,7 @@ input:checked {
   }
 }
 
-.logo {
-  filter: none;
-}
-
-body.light .logo {
+body.light .menu-btn-container .logo,
+body .menu-btn-container .logo {
   filter: grayscale(0%);
 }
