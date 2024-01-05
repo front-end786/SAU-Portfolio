@@ -1157,13 +1157,18 @@ body.light .signatures {
 
 .footer {
   border-top: 1px solid var(--border);
-  padding-block: var(--gutter-x-large);
+  padding: var(--gutter-small) var(--gutter-nano);
 }
 
 .footer-content {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+.footer p {
+  margin-top: var(--gutter-large);
+  text-align: center;
 }
 
 @media (max-width: 875px) {
@@ -1291,4 +1296,47 @@ input:checked {
   position: absolute;
   bottom: 25%;
   transition: all 0.4s;
+}
+
+.about-me {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-me-info {
+  border: 1px solid var(--border-dark);
+  border-radius: var(--gutter-micro);
+  padding: 0;
+  max-width: var(--site-max-width);
+  margin: var(--gutter-small) auto;
+  padding: var(--gutter-medium);
+}
+
+.me {
+  max-width: 25%;
+  max-height: 25%;
+  margin: 0 auto;
+  border-radius: 50%;
+}
+
+.info-parent {
+  max-width: 70%;
+  margin: var(--gutter-small) auto;
+  display: flex;
+  flex-direction: column;
+  gap: var(--gutter-nano);
+}
+
+@media (max-width: 770px) {
+  .about-me-info {
+    max-width: 95%;
+  }
+  .info-parent {
+    max-width: 100%;
+  }
+  .me {
+    max-width: 40%;
+  }
 }
