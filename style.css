@@ -596,6 +596,7 @@ body.light .header {
 }
 
 .logo {
+  cursor: pointer;
   position: absolute;
   top: 0;
   max-block-size: 60px;
@@ -1339,4 +1340,12 @@ input:checked {
   .me {
     max-width: 40%;
   }
+}
+
+.logo {
+  filter: none;
+}
+
+body.light .logo {
+  filter: grayscale(0%);
 }
