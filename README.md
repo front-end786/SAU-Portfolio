@@ -1,6 +1,6 @@
 # Portfolio Template
 
-Hello this is Sayyed Asad Ullah. I'm a front end developer and UX designer.You can use my portfolio itsfor free. If you want so see my portfolio link so, the link is in bellow. 🚀⚡
+Hello this is Sayyed Asad Ullah. I'm a front end developer and UX designer.You can use my portfolio itsfor free. If you want so see my portfolio link so, the link is it 🚀⚡
 
 Give star ⭐ if you find it useful. [Visit site &rarr;](https://sayyedasad.netlify.app/)
 
@@ -8,7 +8,7 @@ Give star ⭐ if you find it useful. [Visit site &rarr;](https://sayyedasad.netl
 
 ## Useful resources
 
-Make sure to subscribe to our [youtube channel](https://www.youtube.com/@nisarhassan12) channel where we cover creating template like this from scratch using HTML, CSS and JavaScript and also don't forget to star 🌟 the [css-tips-tricks](https://github.com/devsyedmohsin/css-tips-tricks) that has already reached 150+ stars.
+Using tools for this portfolio HTML, CSS and JavaScript and also don't forget to star 🌟 the [css-tips-tricks](https://github.com/front-end786) that has already reached 150+ stars.
 
 ## Table of Contents
 
@@ -42,10 +42,10 @@ Follow these three steps to fashion an awe-inspiring portfolio of your own.
 If you have [Git](https://git-scm.com/) installed on your computer, you can simply clone or download the portfolio template by running the following command in your terminal.
 
 ```bash
-git clone https://github.com/devsyedmohsin/portfolio-template
+git clone https://github.com/front-end786/SAU-Portfolio
 ```
 
-Alternatively, click on this [link](https://github.com/devsyedmohsin/portfolio-template/archive/refs/heads/main.zip) to download it.
+Alternatively, click on this [link](https://github.com/front-end786/SAU-Portfolio/archive/refs/heads/main.zip) to download it.
 
 ### Editing the Template
 
@@ -56,13 +56,15 @@ You will find a file named `index.html` open it and follow the guidance inscribe
 
 ```html
 <!-- Update with your name -->
-<title>Syed Mohsin's Portfolio</title>
+<title>
+  Sayyed Asad Ullah | A frontend webdeveloper and user interface designer.
+</title>
 ```
 
 ```html
 <div class="header-textbox">
   <!-- Replace with your name & job title -->
-  <h1 class="h1">Hi, I'm Syed Mohsin Frontend Web Developer</h1>
+  <h1 class="h1">Hi, I'm Sayyed Asad Frontend Developer</h1>
 
   <!-- Add a small introductory paragraph about yourself -->
   <p class="header-text">A frontend software engineer and interface designer</p>
@@ -70,11 +72,5 @@ You will find a file named `index.html` open it and follow the guidance inscribe
 ```
 
 **Note:** While editing the template make sure you have updated all `href`, img `src` and `alt` attributes of links and images.
-
-### Deploying the Site
-
-Watch [this youtube video](https://www.youtube.com/watch?v=oEyXLYW3RjY) to learn how to deploy your version of the portfolio-template to the web.
-
-[![Deploy your version of the Portfolio template using Netlify](assets/images/thumbnail.png)](https://www.youtube.com/watch?v=oEyXLYW3RjY "Deploy your version of the Portfolio template using Netlify")
 
 ### Contributions are warmly welcomed ❤️.

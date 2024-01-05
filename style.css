@@ -1094,10 +1094,12 @@ body.dark .work-links img {
 
 .signatures {
   inline-size: 150px;
+  filter: invert(1);
 }
 
 body.light .signatures {
-  filter: invert(1);
+  inline-size: 150px;
+  filter: none;
 }
 
 .contact-form {
