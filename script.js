@@ -16,7 +16,7 @@ window.addEventListener('scroll', () => {
     menuBtn.style.backdropFilter = 'blur(10px)'
   } else {
     menuBtn.style.borderBottom = 'none';
-    menuBtn.style.backdropFilter = 'none'
+    menuBtn.style.backdropFilter = 'none';
 
     console.log('sau')
   }
