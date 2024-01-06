@@ -946,7 +946,6 @@ body.dark .work-links img {
 
 @media (max-width: 550px) {
   .testimonials {
-    border: 1px solid teal;
     padding: var(--gutter-micro);
   }
   .testimonial {
