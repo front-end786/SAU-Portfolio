@@ -45,8 +45,7 @@ btnTrans.addEventListener('click', () => {
   items.forEach(item => item.classList.toggle('hid'));
   if (trans.classList.contains('hid')) {
     btnTrans.textContent = 'SHOW LESS';
-    btnTrans.parentElement.style.position = 'relative';
-    btnTrans.parentElement.style.bottom = '0';
+    btnTrans.parentElement.style.bottom = '-7.5%';
   } else {
     btnTrans.textContent = 'SHOW MORE';
     btnTrans.parentElement.style.position = 'absolute';
