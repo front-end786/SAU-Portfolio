@@ -8,6 +8,19 @@ const btnTrans = document.querySelector('.btn-trans');
 const card1 = document.querySelector('.card1');
 const card2 = document.querySelector('.card2');
 const trans = document.querySelector('.trans');
+const menuBtn = document.querySelector('.menu-btn-container');
+
+window.addEventListener('scroll', () => {
+  if (scrollY > 1) {
+    menuBtn.style.borderBottom = '1px solid var(--border)';
+    menuBtn.style.backdropFilter = 'blur(10px)'
+  } else {
+    menuBtn.style.borderBottom = 'none';
+    menuBtn.style.backdropFilter = 'none'
+
+    console.log('sau')
+  }
+})
 
 
 const toggleNav = () => {

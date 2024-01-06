@@ -428,8 +428,9 @@ main {
 .menu-btn-container {
   position: fixed;
   width: 100%;
-  top: var(--gutter-x-small);
+  top: 0;
   left: 0;
+  padding: var(--gutter-x-small) var(--gutter-x-small);
   z-index: 4;
 }
 
