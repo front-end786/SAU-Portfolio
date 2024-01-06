@@ -924,6 +924,7 @@ body.dark .work-links img {
   justify-content: center;
   position: relative;
   margin: var(--gutter-x-large) auto;
+  padding: var(--gutter-micro);
 }
 
 .trans {
@@ -941,6 +942,18 @@ body.dark .work-links img {
   padding: var(--gutter-small);
   background-color: var(--bg-color-secondary);
   border-radius: var(--gutter-nano);
+}
+
+@media (max-width: 550px) {
+  .testimonials {
+    border: 1px solid teal;
+    padding: var(--gutter-micro);
+  }
+  .testimonial {
+    max-inline-size: 97.5%;
+    min-inline-size: 97.5%;
+    padding: var(--gutter-micro);
+  }
 }
 
 .testimonial-text {
@@ -1295,7 +1308,7 @@ input:checked {
 
 .btn-show {
   position: absolute;
-  bottom: 25%;
+  bottom: 10%;
   transition: all 0.4s;
 }
 

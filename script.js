@@ -45,11 +45,11 @@ btnTrans.addEventListener('click', () => {
   items.forEach(item => item.classList.toggle('hid'));
   if (trans.classList.contains('hid')) {
     btnTrans.textContent = 'SHOW LESS';
-    btnTrans.parentElement.style.bottom = '-7.5%';
+    btnTrans.parentElement.style.bottom = '-5%';
   } else {
     btnTrans.textContent = 'SHOW MORE';
     btnTrans.parentElement.style.position = 'absolute';
-    btnTrans.parentElement.style.bottom = '15%';
+    btnTrans.parentElement.style.bottom = '10%';
   }
 })
 
