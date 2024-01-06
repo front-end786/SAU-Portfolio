@@ -49,7 +49,7 @@ btnTrans.addEventListener('click', () => {
   } else {
     btnTrans.textContent = 'SHOW MORE';
     btnTrans.parentElement.style.position = 'absolute';
-    btnTrans.parentElement.style.bottom = '10%';
+    btnTrans.parentElement.style.bottom = '15%';
   }
 })
 
