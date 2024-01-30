@@ -1359,3 +1359,8 @@ body.light .menu-btn-container .logo,
 body .menu-btn-container .logo {
   filter: grayscale(0%);
 }
+
+.linker{
+  text-decoration: none;
+  color: inherit;
+}
