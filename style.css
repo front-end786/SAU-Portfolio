@@ -1363,4 +1363,5 @@ body .menu-btn-container .logo {
 .linker{
   text-decoration: none;
   color: inherit;
+  cursor: pointer;
 }
