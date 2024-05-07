@@ -1368,6 +1368,5 @@ body .menu-btn-container .logo {
 
 .working-for{
   display:flex;
-  gap:2rem;
-  background:red;
+  gap:0.75rem
 }
