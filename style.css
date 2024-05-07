@@ -1375,3 +1375,10 @@ body .menu-btn-container .logo {
 for-working{
   font-weight:700;
 }
+
+.about-link{
+  font-weight:700;
+  color:inherit;
+  cursor:pointer;
+  text-decoration: underline;
+}
