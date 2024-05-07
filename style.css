@@ -1370,3 +1370,7 @@ body .menu-btn-container .logo {
   display:flex;
   gap:0.75rem
 }
+
+for-working{
+  font-weight:700;
+}
