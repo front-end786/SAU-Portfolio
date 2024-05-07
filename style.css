@@ -1364,6 +1364,7 @@ body .menu-btn-container .logo {
   text-decoration: none;
   color: inherit;
   cursor: pointer;
+  font-weight:700;
 }
 
 .working-for{
