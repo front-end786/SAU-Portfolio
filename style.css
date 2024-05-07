@@ -1365,3 +1365,8 @@ body .menu-btn-container .logo {
   color: inherit;
   cursor: pointer;
 }
+
+.working-for{
+  display:flex;
+  gap:2rem;
+}
