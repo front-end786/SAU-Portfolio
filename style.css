@@ -668,6 +668,7 @@ body.light .logo {
 
   .work-img {
     margin-block-end: var(--gutter-medium);
+    
   }
 }
 
@@ -689,6 +690,7 @@ body.light .logo {
 .work-img {
   max-inline-size: 785px;
   transition: 0.6s all;
+  border-radius: var(--gutter-nano);
 }
 
 body.light .work-img {
@@ -1296,6 +1298,7 @@ input:checked {
   box-shadow: var(--shadow-img);
   transition: all 0.4s;
   cursor: pointer;
+  border-radius: var(--gutter-nano);
 }
 
 .img-work:hover {
@@ -1360,26 +1363,26 @@ body .menu-btn-container .logo {
   filter: grayscale(0%);
 }
 
-.linker{
+.linker {
   text-decoration: none;
   color: inherit;
   cursor: pointer;
-  font-weight:700;
+  font-weight: 700;
 }
 
-.working-for{
-  display:flex;
-  gap:0.75rem
+.working-for {
+  display: flex;
+  gap: 0.75rem;
 }
 
-for-working{
-  font-weight:700;
+for-working {
+  font-weight: 700;
 }
 
-.about-link{
-  font-weight:700;
-  color:inherit;
-  cursor:pointer;
+.about-link {
+  font-weight: 700;
+  color: inherit;
+  cursor: pointer;
   text-decoration: underline;
-  font-family:"Mona Sans",sans-serif
+  font-family: "Mona Sans", sans-serif;
 }
