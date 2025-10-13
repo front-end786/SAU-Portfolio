@@ -1252,9 +1252,21 @@
                 loading="lazy"
               />
             </div>
-            <form method="POST" data-netlify="true" class="contact-form">
+            <form
+  name="contact"
+  method="POST"
+  data-netlify="true"
+  netlify-honeypot="bot-field"
+  class="contact-form"
+>
+  <!-- Hidden input to help Netlify identify your form -->
   <input type="hidden" name="form-name" value="contact" />
-  
+
+  <!-- Honeypot field to prevent spam -->
+  <p class="hidden">
+    <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
+  </p>
+
   <div class="form-field">
     <label for="name">Name</label>
     <input type="text" name="name" id="name" required />
@@ -1278,6 +1290,7 @@
 
   <button type="submit" class="btn btn-cta">Send</button>
 </form>
+
           </div>
         </div>
       </section>
